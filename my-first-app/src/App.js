@@ -19,7 +19,7 @@ function App() {
     <Switch>
     <Route path="/dance/newType" component={NewType} />
     <Route path="/dance/updateType/:id" component={UpdateType} />
-      <Route path="/dance" component={Dance} />
+      <Route path="/dance/:page?" component={Dance} />
       <Route path="/login" component={Login} />
       <Route path="/signup" component={Signup} />
       <Route path="/" component={LandingPage} />
