@@ -75,53 +75,53 @@ function App() {
         <Grid container spacing={1} style={{"backgroundColor":"#DCDCDC"}} >
         <Grid item xs={2}>
         <input name="1" type="checkbox" style={{"width":"30px"}} color="black" onClick={Check2} ></input>
-        <input type="text" name="1" style={{"width":"30px"}}/> %       
+        <input type="number" name="1" min="0" max="100" style={{"width":"30px"}}/> %       
         </Grid>
         <Grid item xs={2}>
         <input name="1" type="checkbox" style={{"width":"30px"}} color="black" onClick={Check2}></input>
-        <input type="text" name="1" style={{"width":"30px"}}/> %   
+        <input type="number" name="1" min="0" max="100" style={{"width":"30px"}}/> %   
         </Grid>    
         <Grid item xs={2}>
         <input name="1" type="checkbox" style={{"width":"30px"}} color="black" onClick={Check2}></input>
-        <input type="text" name="1" style={{"width":"30px"}}/> %     
+        <input type="number" name="1" min="0" max="100" style={{"width":"30px"}}/> %     
         </Grid>   
         <Grid item xs={2}>
         <input name="1" type="checkbox" style={{"width":"30px"}} color="black"onClick={Check2} ></input>
-        <input type="text" name="1" style={{"width":"30px"}}/> %   
+        <input type="number" name="1" min="0" max="100" style={{"width":"30px"}}/> %   
         </Grid>     
         <Grid item xs={2}>
         <input name="1" type="checkbox" style={{"width":"30px"}} color="black" onClick={Check2} ></input>
-        <input type="text" name="1" style={{"width":"30px"}}/> %   
+        <input type="number" name="1"  min="0" max="100" style={{"width":"30px"}}/> %   
         </Grid>      
         <Grid item xs={2}>
         <input name="1" type="checkbox" style={{"width":"30px"}} color="black" onClick={Check2}></input>
-        <input type="text" name="1" style={{"width":"30px"}}/> %        
+        <input type="number" name="1" min="0" max="100" style={{"width":"30px"}}/> %        
         </Grid>
         </Grid>
         <Grid container spacing={1}  style={{"backgroundColor":"#E8E8E8"}}>
         <Grid item xs={2}>
         <input name="2" type="checkbox" style={{"width":"30px"}} color="black" onClick={Check1} ></input>
-        <input type="text"name="2" style={{"width":"30px"}}/> £       
+        <input type="number" name="2" min="0" style={{"width":"30px"}}/> £       
         </Grid>
         <Grid item xs={2}>
         <input name="2" type="checkbox" style={{"width":"30px"}} color="black" onClick={Check1} ></input>
-        <input type="text" name="2" style={{"width":"30px"}}/> £    
+        <input type="number" name="2" min="0" style={{"width":"30px"}}/> £    
         </Grid>    
         <Grid item xs={2}>
         <input name="2" type="checkbox" style={{"width":"30px"}} color="black" onClick={Check1}></input>
-        <input type="text" name="2" style={{"width":"30px"}}/> £     
+        <input type="number" name="2" min="0" style={{"width":"30px"}}/> £     
         </Grid>   
         <Grid item xs={2}>
         <input name="2" type="checkbox" style={{"width":"30px"}} color="black" onClick={Check1} ></input>
-        <input type="text" name="2" style={{"width":"30px"}}/> £ 
+        <input type="number" name="2" min="0" style={{"width":"30px"}}/> £ 
         </Grid>     
         <Grid item xs={2}>
         <input name="2" type="checkbox" style={{"width":"30px"}} color="black" onClick={Check1} ></input>
-        <input type="text" name="2" style={{"width":"30px"}}/> £ 
+        <input type="number" name="2" min="0" style={{"width":"30px"}}/> £ 
         </Grid>      
         <Grid item xs={2}>
         <input name="2" type="checkbox" style={{"width":"30px"}} color="black" onClick={Check1}></input>
-        <input type="text" name="2" style={{"width":"30px"}}/> £      
+        <input type="number" min="0" name="2" style={{"width":"30px"}}/> £      
         </Grid>
         </Grid>
 
